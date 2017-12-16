@@ -18,6 +18,6 @@ export const routes = [
   },
    */
   // Not found
-  { path: '**', redirectTo: 'user' }
+  { path: '**', redirectTo: 'index' }
 
 ];

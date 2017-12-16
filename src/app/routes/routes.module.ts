@@ -4,11 +4,13 @@ import { RouterModule } from '@angular/router';
 
 import { routes } from './routes';
 import {UserModule} from "./user/user.module";
+import {IndexModule} from "./index/index.module";
 
 @NgModule({
   imports: [
     RouterModule.forRoot(routes),
-    UserModule
+    UserModule,
+    IndexModule
   ],
   declarations: [],
   exports: [
